@@ -8,7 +8,7 @@ First install NVIDIA [CUDA](https://developer.nvidia.com/cuda-downloads), [cuDNN
 
 ### 1. Python environment
 
-Here I recommend using a [virtualenv](https://docs.python.org/3/tutorial/venv.html) or a [conda-env](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) to install the following requirements.
+Here I recommend using a [virtualenv](https://docs.python.org/3/tutorial/venv.html) or a [conda-env](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) to install the following requirements. The project is tested with Python 3.7.6. 
 
 ```shell
 pip install -r requirements.txt
