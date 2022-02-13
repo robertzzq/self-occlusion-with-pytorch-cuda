@@ -50,7 +50,7 @@ v_fov:	Vertical field of view (Degree).
 
 ### 4. Run
 
-Make an output folder (currently it is set to `temp/` in `src/main.py`, you can modify it in the code or add configurable argument with `import parser` and `parser.add_argument()` ).
+Make an output folder (currently it is set to `temp/` in `src/main.py`, you can modify it in the code).
 
 Go to the root folder, and execute:
 
