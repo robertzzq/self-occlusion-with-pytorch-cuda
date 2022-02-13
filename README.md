@@ -82,6 +82,6 @@ View from (-5, 5, 5)
 
 <img src='images/view1_tex0_10.png' width=300px><img src='images/view1_10.png' width=300px>
 
-(2) Set camera's near plane to 7.5, far plane to 8.6, and `v_fov` to 10 degree:
+(2) Set camera's near plane to 7.2, far plane to 8.6, and `v_fov` to 10 degree:
 
 <img src='images/view1_tex0_10_7-2_8-6.png' width=300px><img src='images/view1_10_7-2_8-6.png' width=300px>
