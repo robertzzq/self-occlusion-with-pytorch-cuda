@@ -1,6 +1,7 @@
 import os
 import sys
 sys.path.append('../')
+import time
 import torch
 from Entity.camera import Camera
 from Entity.object import Object
@@ -18,6 +19,7 @@ if __name__=="__main__":
     texture = Texture()
 
     print("Processing...")
+    time1 = time.time()
     # texture sampling to object sampling
     map_res = sampling(object_3d, texture)
     temp_v = map_res[0].cpu().numpy() # for .obj result output
@@ -27,6 +29,10 @@ if __name__=="__main__":
 
     # occlusion
     occlude_res = occlusion(object_3d, camera, map_res[0], clip_res)
+    time2 = time.time()
+
+    # time calculation
+    print('Processing time: %f ms' % ((time2 * 1000) - (time1 * 1000)))
 
     # save results
     print("Writing to 1024x1024 texture image.")
